@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Edrick Waiswa Tourism</title>
+    <style>
+        /* Shared Theme Styles */
+        body { 
+            margin: 0; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: #f4f4f4; 
+            color: #333; 
+            line-height: 1.6; 
+        }
+        
+        header { 
+            background: linear-gradient(to right, black, red, black); 
+            color: white; 
+            padding: 40px 20px; 
+            text-align: center; 
+        }
+
+        nav { 
+            background: #222; 
+            padding: 15px; 
+            text-align: center; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        
+        nav a:hover { color: yellow; }
+
+        .contact-container {
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Red heading with Green side line to match Gallery style */
+        h2 { 
+            color: red; 
+            border-left: 5px solid green; 
+            padding-left: 15px; 
+            margin-bottom: 25px;
+        }
+
+        .contact-info {
+            background: #fffafa;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Form Styling */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input, textarea {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: red;
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 15px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: black;
+            transform: translateY(-2px);
+        }
+
+        footer { 
+            background: #222; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 50px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Get in Touch</h1>
+    <p>Plan your next Ugandan Expedition with Flying Tours and Travel</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="data.html">Data</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main class="contact-container">
+    <section>
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>📍 Location: Kampala, Uganda</p>
+            <p>📧 Email: flyingtours@gmail.com</p>
+            <p>📞 Phone: +256 759484200</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Send a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What are you interested in?">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your travel plans..." required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Flying Tours and Travel | BIT1203 Intensive Etivity</p>
+    <p>Waiswa Edrick Kizito 2025/BIT/014 </p>
+</footer>
+
+</body>
+</html>

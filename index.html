@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Edrick Waiswa Tourism Portfolio</title>
+    <style>
+        /* Shared Theme Styles */
+        body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f4f4f4; color: #333; line-height: 1.6; }
+        
+        header { 
+            background: linear-gradient(to right, black, red, black); 
+            color: white; 
+            padding: 60px 20px; 
+            text-align: center; 
+        }
+
+        nav { 
+            background: #222; 
+            padding: 15px; 
+            text-align: center; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; text-transform: uppercase; }
+        nav a:hover { color: yellow; }
+
+        .hero-container {
+            width: 95%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Styling matching the Gallery: Red headings with Green accents */
+        h2 { 
+            color: red; 
+            border-left: 5px solid green; 
+            padding-left: 15px; 
+            display: inline-block;
+            text-align: left;
+        }
+
+        .intro-text {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #444;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .feature-box {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #fffafa;
+        }
+
+        .feature-box h3 { color: red; }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .cta-button:hover { background: black; transform: scale(1.05); }
+
+        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Flying Tours and Travel</h1>
+    <p>Professional Tourism Expedition Portfolio</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="data.html">Data</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main class="hero-container">
+    <section>
+        <h2>Welcome to the Pearl of Africa</h2>
+        <p class="intro-text">
+            Explore the breathtaking beauty of Uganda through the eyes of a professional tour guide. 
+            From the roaring waters of <strong>Murchison Falls</strong> to the snow-capped peaks of the 
+            <strong>Rwenzori Mountains</strong>, this portfolio showcases the rich wildlife and 
+            scenery found across our beautiful nation.
+        </p>
+    </section>
+
+    <div class="feature-grid">
+        <div class="feature-box">
+            <h3>Wildlife</h3>
+            <p>Track Chimpanzees in Budongo Forest and see the Big Five in Queen Elizabeth Park.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Adventure</h3>
+            <p>Experience the Equator crossing and the thunderous power of the River Nile.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Documentation</h3>
+            <p>Full project architecture and tourism data analysis included for academic review.</p>
+        </div>
+    </div>
+
+    <a href="gallery.html" class="cta-button">View the Expedition Gallery</a>
+</main>
+
+<footer>
+    <p>&copy; 2026 Flying Tours and Travel | BIT1203 Intensive Etivity</p>
+    <p>Waiswa Edrick Kizito 2025/BIT/014 </p>
+</footer>
+
+</body>
+</html>

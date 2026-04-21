@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uganda Tourism Gallery - Edrick Waiswa Portfolio</title>
+    
+    <style>
+        /* Shared Styles to match Contact page professional theme */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, black, red, black);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Container styling for the main content */
+        .main-content {
+            width: 95%;
+            max-width: 1100px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* --- Updated Grid Layout to fill blank space neatly --- */
+        .gallery-grid {
+            display: grid;
+            /* Documentation: Using auto-fit allows the grid to adapt to screen size and fill empty rows */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Figure and media styling */
+        figure {
+            margin: 0;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+        }
+
+        figure:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Documentation: Setting a uniform height for grid consistency */
+        img, video {
+            width: 100%;
+            height: 200px; /* Neat, standardized height for grid items */
+            object-fit: cover; /* Keeps aspect ratio clean */
+            border-radius: 5px;
+            display: block;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: red;
+            font-weight: bold;
+            border-left: 5px solid green;
+            padding-left: 10px;
+            text-align: left;
+        }
+
+        /* Description Box */
+        .location-info {
+            background: #fffafa;
+            padding: 20px;
+            border: 1px solid #ffcccc;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .location-info strong { color: #d00; }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Flying Tours and Travel Gallery</h1>
+        <p>A Complete Visual Record </p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="data.html">Data</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main class="main-content">
+
+        <h2>Expedition Portfolio</h2>
+
+        <section class="location-info">
+            <h3>Uganda Tourism - Background & Wildlife</h3>
+            <p>Welcome to my complete visual expedition! Each spot below showcases the breathtaking **background and scenery** of Uganda. As you explore, remember that these diverse ecosystems are home to some of the world's finest wildlife. In **Queen Elizabeth National Park**, look for **Tree-climbing Lions and Elephants**. We travel next to **Murchison Falls**, famous for its powerful waters and **Nile Crocodiles**. We also include the primate capitals of the **Budongo Forest** (Chimpanzees) and finish at the geographic landmark of the **Equator** and the unique **Rwenzori Mountains** landscapes.</p>
+        </section>
+
+        <section class="gallery-grid">
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Budongo.mp4" type="video/mp4"></video>
+                <figcaption>Budongo Forest - Chimpanzee Habitat</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/BudongoForest.mp4" type="video/mp4"></video>
+                <figcaption>Deep Mahogany Woodland (Budongo Forest)</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/equiitor.mp4" type="video/mp4"></video>
+                <figcaption>Equator Crossing Experiment</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Fort.mp4" type="video/mp4"></video>
+                <figcaption>Fort Portal Hills</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/FortPortal.mp4" type="video/mp4"></video>
+                <figcaption>Exploring Fort Portal</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Kampala.mp4" type="video/mp4"></video>
+                <figcaption>Kampala City Streets</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/kasengachannel.mp4" type="video/mp4"></video>
+                <figcaption>Kazinga Channel Wildlife Safari</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Kasese.mp4" type="video/mp4"></video>
+                <figcaption>Kasese District Landscape</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/LakeBunyonyi.mp4" type="video/mp4"></video>
+                <figcaption>Lake Bunyonyi Islands</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Machion.mp4" type="video/mp4"></video>
+                <figcaption>Murchison Rapids (Machion)</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/MurchionFalls.mp4" type="video/mp4"></video>
+                <figcaption>Murchison Falls National Park</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Murchsion.mp4" type="video/mp4"></video>
+                <figcaption>Murchison Park Wildlife Drive</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/QueenElizabeth.mp4" type="video/mp4"></video>
+                <figcaption>Queen Elizabeth Park Savannah</figcaption>
+            </figure>
+
+            <figure>
+                <video controls preload="metadata"><source src="video/Rwenzori.mp4" type="video/mp4"></video>
+                <figcaption>The Rwenzori Mountains</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Equator.jpg.jpeg" alt="Edrick posing at the Equator monument">
+                <figcaption>The Queen Elizabeth Park Equator Landmark</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/newequator.jpg.jpeg" alt="A wide view of the Equator line">
+                <figcaption>Standing at the Southern Hemisphere Crossing</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Sorceofthenile.jpg.jpeg" alt="Source of the Nile-Portfolio-HTML5 website">
+                <figcaption>The Victoria Nile landscapes .</figcaption>
+            </figure>
+            <figure>
+                <img src="images/JinjaBridge.jpg.jpeg" alt="Jinja Bridge">
+             <figcaption>The River Nile Source Adventure</figcaption>.
+            </figure>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Flying Tours and Travel | BIT1203 Intensive Project</p>
+        <p>Waiswa Edrick Kizito 2025/BIT/014 </p>
+    </footer>
+
+    </body>
+</html>
